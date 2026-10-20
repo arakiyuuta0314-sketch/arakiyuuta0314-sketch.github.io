@@ -2,36 +2,72 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<title>App Support | FLIP &amp; FIX Market</title>
-<meta name="description" content="FLIP &amp; FIX Market app support and privacy information.">
+<meta name="theme-color" content="#f5f9f7">
+<meta name="description" content="iPhoneアプリ共通サポートページ。お問い合わせ、データ保存、バックアップ、広告削除とプライバシー情報。">
+<title>アプリサポート / App Support</title>
 <style>
-:root{font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;color:#25384b;background:#f3f7f6}
-*{box-sizing:border-box}body{margin:0;padding:28px 18px}
-main{max-width:740px;margin:6vh auto;background:white;border:1px solid #dbe8e6;border-radius:22px;padding:clamp(23px,5vw,44px);box-shadow:0 16px 45px #24435910}
-h1{font-size:clamp(25px,5vw,34px);margin:4px 0 9px}h2{font-size:20px;margin:35px 0 10px}
-p{line-height:1.8;color:#455569}a{color:#136e66;text-underline-offset:3px}
-.eyebrow{color:#217267;font-weight:800;font-size:12px;letter-spacing:.09em}
-.app{background:#eff9f4;border:1px solid #c8e5d7;padding:22px;border-radius:17px;margin-top:26px}
-.app strong{font-size:19px}.app p{margin:7px 0 12px}
-.links{display:flex;gap:14px;flex-wrap:wrap}footer{border-top:1px solid #e0e8e7;margin-top:32px;padding-top:16px;font-size:13px}
+:root{--bg:#f5f9f7;--ink:#233c39;--muted:#697b78;--line:#dce9e3;--green:#226858;--card:#fff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+a{color:var(--green);text-underline-offset:3px;overflow-wrap:anywhere}a:hover{color:#114a3c}a:focus-visible,summary:focus-visible{outline:3px solid #edb75e;outline-offset:3px}
+.wrap{max-width:780px;margin:0 auto;padding:0 19px}
+header{padding:44px 0 37px;background:linear-gradient(130deg,#e7f5ee,#fefaf0);border-bottom:1px solid #e1ece4}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.16em;color:#498071}
+h1{font-size:clamp(28px,5vw,37px);margin:13px 0;letter-spacing:-.025em}header p{line-height:1.85;color:#56716b;margin:9px 0 0}
+main{padding-top:27px!important;padding-bottom:56px!important}.lead{margin:0 0 19px;color:var(--muted);line-height:1.8}
+.app-list{display:grid;gap:17px}.app-card{background:var(--card);border:1px solid var(--line);border-radius:19px;padding:24px;box-shadow:0 6px 22px #20534108}
+.app-title{display:flex;gap:14px;align-items:flex-start}.app-icon{border-radius:14px;background:#eaf5ed;width:51px;height:51px;display:grid;place-items:center;flex:none;font-size:27px}
+h2{font-size:18px;margin:26px 0 15px}h3{font-size:20px;margin:3px 0 7px}.app-description{color:var(--muted);font-size:14px;line-height:1.8;margin:0}
+span[lang=en]{display:block;font-size:.92em;color:#81918f;line-height:1.65}
+details{margin:19px 0 6px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}summary{list-style-position:inside;cursor:pointer;color:var(--green);font-size:14px;padding:14px 0;font-weight:700}
+dl{margin:0 0 17px}dt{font-weight:700;font-size:14px;margin:18px 0 6px}dd{margin:0;color:#647774;font-size:14px;line-height:1.8}
+.links{display:flex;flex-wrap:wrap;gap:10px 25px;padding-top:14px}.links a{font-size:14px;font-weight:700}
+.help{background:#edf5f1;border-radius:17px;padding:20px 23px;margin-top:26px}.help h2{margin:0 0 9px}.help p{font-size:14px;line-height:1.8;margin:8px 0;color:#59716a}
+footer{border-top:1px solid var(--line);font-size:12px;color:#829490;padding:23px 0 31px}
+@media(max-width:500px){header{padding:31px 0 29px}.app-card{padding:19px}.app-icon{width:44px;height:44px;font-size:23px}h3{font-size:18px}.links a{line-height:1.6}}
 </style>
 </head>
-<body><main>
-<div class="eyebrow">APP SUPPORT / アプリサポート</div>
+<body>
+<header><div class="wrap"><div class="eyebrow">APP SUPPORT / アプリサポート</div>
 <h1>アプリのサポート窓口</h1>
-<p>アプリのご利用ありがとうございます。お問い合わせとプライバシー情報は、以下から確認できます。</p>
-<section class="app">
-<strong>🔧 FLIP &amp; FIX Market</strong>
-<p>修理して、お店を育て、街を取り戻すゲーム。 / Repair, trade and rebuild your town.</p>
-<div class="links">
-<a href="/app-legal-pages/flip-fix-market/privacy/">プライバシーポリシー / Privacy Policy</a>
-<a href="mailto:yuta.room.info@gmail.com">お問い合わせ / Contact</a>
-</div>
+<p>お問い合わせやアプリの使い方、プライバシー情報はこちらから。<br>
+<span lang="en">Support and privacy information for our iPhone apps.</span></p></div></header>
+<main class="wrap" id="main">
+<p class="lead">アプリを選ぶと、データの保存方法やバックアップについて確認できます。<br>
+<span lang="en">Choose an app below for details about local data, backups and purchases.</span></p>
+<section aria-labelledby="apps-heading"><h2 id="apps-heading">サポート対象アプリ / Apps</h2>
+<div class="app-list">
+<article class="app-card" id="app-flip-fix-market">
+  <div class="app-title"><span class="app-icon" aria-hidden="true">🔧</span><div><h3>FLIP &amp; FIX Market</h3><p class="app-description">モノを修理して、お店と街を育てるゲーム。<span lang="en">A repair and town-building game.</span></p></div></div>
+  <details><summary>よくあるご質問 / Help &amp; FAQ</summary>
+    <dl>
+      <dt>保存されたデータはどこにありますか？ / Where is my data?</dt><dd>ゲームの進行は端末内に保存します。クラウド同期はありません。<span lang="en">Game progress is stored on your device. Cloud sync is not available.</span></dd>
+      <dt>アプリを削除・機種変更するときは？ / Backups &amp; migration</dt><dd>アプリを削除すると進行状況が失われる場合があります。<span lang="en">Deleting the app may erase locally saved progress.</span></dd>
+      <dt>広告削除を購入した場合は？ / Restore purchases</dt><dd>広告削除の購入機能がある場合は、ゲームの設定から購入の復元を行えます。<span lang="en">If Remove Ads is available, use Restore Purchases in the game&#x27;s settings.</span></dd>
+    </dl>
+  </details>
+  <div class="links"><a href="https://arakiyuuta0314-sketch.github.io/app-legal-pages/privacy/">プライバシーポリシー <span lang="en">/ Privacy</span> ↗</a><a href="mailto:yuta.room.info@gmail.com?subject=%E3%80%90FLIP%20%26%20FIX%20Market%E3%80%91%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">このアプリについて問い合わせる ↗</a></div>
+</article>
+<article class="app-card" id="app-coinjar500">
+  <div class="app-title"><span class="app-icon" aria-hidden="true">🐷</span><div><h3>こつこつ500円貯金</h3><p class="app-description">500円玉の貯金記録と目標を手軽に管理するアプリ。<span lang="en">A simple tracker for 500-yen coin savings and goals.</span></p></div></div>
+  <details><summary>よくあるご質問 / Help &amp; FAQ</summary>
+    <dl>
+      <dt>保存されたデータはどこにありますか？ / Where is my data?</dt><dd>貯金額・目標・履歴は端末内に保存します。開発者への自動送信はありません。<span lang="en">Your savings, goals and history are stored locally, without automatic upload to the developer.</span></dd>
+      <dt>アプリを削除・機種変更するときは？ / Backups &amp; migration</dt><dd>設定からバックアップを書き出して保存できます。削除・機種変更前に保存してください。<span lang="en">Export a backup from settings before deleting the app or changing devices.</span></dd>
+      <dt>広告削除を購入した場合は？ / Restore purchases</dt><dd>広告削除の購入機能がある場合は、設定から購入の復元を行えます。<span lang="en">If Remove Ads is available, restore it from the app settings.</span></dd>
+    </dl>
+  </details>
+  <div class="links"><a href="https://arakiyuuta0314-sketch.github.io/app-legal-pages/privacy/">プライバシーポリシー <span lang="en">/ Privacy</span> ↗</a><a href="mailto:yuta.room.info@gmail.com?subject=%E3%80%90%E3%81%93%E3%81%A4%E3%81%93%E3%81%A4500%E5%86%86%E8%B2%AF%E9%87%91%E3%80%91%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">このアプリについて問い合わせる ↗</a></div>
+</article>
+</div></section>
+<section class="help"><h2>共通のお問い合わせ / Contact</h2>
+<p>不具合やご意見は、アプリ名、利用しているiPhone・iOSのバージョン、発生した操作を添えてご連絡ください。パスワード・決済情報などの機密情報は送らないでください。</p>
+<p lang="en">For support, include your app name, device/iOS version, and steps to reproduce the issue. Do not email passwords or payment details.</p>
+<p><a href="mailto:yuta.room.info@gmail.com">yuta.room.info@gmail.com</a></p>
+<p><a href="https://arakiyuuta0314-sketch.github.io/app-legal-pages/privacy/">共通プライバシーポリシー / Privacy Policy ↗</a></p>
 </section>
-<h2>Support</h2>
-<p>Questions about the game or its privacy practices? Please contact
-<a href="mailto:yuta.room.info@gmail.com">yuta.room.info@gmail.com</a>.</p>
-<footer>App support &amp; privacy information.</footer>
-</main></body></html>
+</main>
+<footer><div class="wrap">© 2026 App Support · English / 日本語</div></footer>
+</body></html>

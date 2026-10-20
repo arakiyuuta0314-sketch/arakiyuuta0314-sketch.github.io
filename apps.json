@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "contactEmail": "yuta.room.info@gmail.com",
+  "privacyPolicyUrl": "https://arakiyuuta0314-sketch.github.io/app-legal-pages/privacy/",
+  "apps": [
+    {
+      "id": "flip-fix-market",
+      "name": "FLIP & FIX Market",
+      "emoji": "🔧",
+      "descriptionJa": "モノを修理して、お店と街を育てるゲーム。",
+      "descriptionEn": "A repair and town-building game.",
+      "saveJa": "ゲームの進行は端末内に保存します。クラウド同期はありません。",
+      "saveEn": "Game progress is stored on your device. Cloud sync is not available.",
+      "backupJa": "アプリを削除すると進行状況が失われる場合があります。",
+      "backupEn": "Deleting the app may erase locally saved progress.",
+      "purchasesJa": "広告削除の購入機能がある場合は、ゲームの設定から購入の復元を行えます。",
+      "purchasesEn": "If Remove Ads is available, use Restore Purchases in the game's settings."
+    },
+    {
+      "id": "coinjar500",
+      "name": "こつこつ500円貯金",
+      "emoji": "🐷",
+      "descriptionJa": "500円玉の貯金記録と目標を手軽に管理するアプリ。",
+      "descriptionEn": "A simple tracker for 500-yen coin savings and goals.",
+      "saveJa": "貯金額・目標・履歴は端末内に保存します。開発者への自動送信はありません。",
+      "saveEn": "Your savings, goals and history are stored locally, without automatic upload to the developer.",
+      "backupJa": "設定からバックアップを書き出して保存できます。削除・機種変更前に保存してください。",
+      "backupEn": "Export a backup from settings before deleting the app or changing devices.",
+      "purchasesJa": "広告削除の購入機能がある場合は、設定から購入の復元を行えます。",
+      "purchasesEn": "If Remove Ads is available, restore it from the app settings."
+    }
+  ]
+}
