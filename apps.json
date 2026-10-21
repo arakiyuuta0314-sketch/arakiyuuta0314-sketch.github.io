@@ -28,6 +28,19 @@
       "backupEn": "Export a backup from settings before deleting the app or changing devices.",
       "purchasesJa": "広告削除の購入機能がある場合は、設定から購入の復元を行えます。",
       "purchasesEn": "If Remove Ads is available, restore it from the app settings."
+    },
+    {
+      "id": "myprof",
+      "name": "マイプロフ",
+      "emoji": "🌿",
+      "descriptionJa": "年齢・プロフィール・学歴や職歴の年表を管理し、追加のデザインカードも作れるアプリ。",
+      "descriptionEn": "Manage your profile, age, and personal timeline, and create additional design cards.",
+      "saveJa": "生年月日・名前・住所・メール・年表・写真・カードのデータは端末内に保存します。開発者運営サーバーへの自動送信やログイン機能はありません。",
+      "saveEn": "Birth dates, names, addresses, email, timeline events, photos and card data are stored on the device. No automatic upload to developer-run servers or login is required.",
+      "backupJa": "標準の個人カードには共有・バックアップ機能はありません。追加カードは画像として保存・共有できます。アプリ削除で保存内容が失われる場合があるためご注意ください。",
+      "backupEn": "The default personal card cannot be exported or backed up in app. Additional cards can be saved or shared as images. Deleting the app may erase saved data.",
+      "purchasesJa": "広告削除は税込480円の買い切り課金です。購入した場合は設定画面の「購入を復元」を使えます。",
+      "purchasesEn": "The non-consumable Remove Ads purchase costs JPY 480 (tax included) in Japan. Restore the purchase from app settings."
     }
   ]
 }
