@@ -41,6 +41,19 @@
       "backupEn": "The default personal card cannot be exported or backed up in app. Additional cards can be saved or shared as images. Deleting the app may erase saved data.",
       "purchasesJa": "広告削除は税込480円の買い切り課金です。購入した場合は設定画面の「購入を復元」を使えます。",
       "purchasesEn": "The non-consumable Remove Ads purchase costs JPY 480 (tax included) in Japan. Restore the purchase from app settings."
+    },
+    {
+      "id": "wishnote",
+      "name": "願いを育てるノート（Wish Note）",
+      "emoji": "✨",
+      "descriptionJa": "願いを言葉にし、美しい風景の中で思い描き、回数や叶った日の記録を残すアプリ。",
+      "descriptionEn": "Write down wishes, reflect in scenic moments, and record sessions and milestones.",
+      "saveJa": "願いの文章・記録・設定と取り込んだ写真は端末内に保存します。クラウド同期・ログインはありません。",
+      "saveEn": "Wishes, history, settings and imported photos stay on your device; there is no cloud sync or login.",
+      "backupJa": "機種変更用のバックアップや写真のクラウド同期はありません。アプリ削除で記録や写真が失われる場合があります。",
+      "backupEn": "No in-app backup or photo cloud sync is provided. Deleting the app may erase your local data.",
+      "purchasesJa": "広告削除は日本で税込480円の買い切りです。購入済みの場合は設定の「購入を復元」から復元できます。",
+      "purchasesEn": "Remove Ads is a one-time purchase (JPY 480 including tax in Japan). Restore it in app settings."
     }
   ]
 }
